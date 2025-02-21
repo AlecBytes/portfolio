@@ -42,7 +42,7 @@ const AboutDetails = () => {
                     <img
                         className="w-full h-auto"
                         src={`https://github-readme-stats.vercel.app/api/top-langs?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&langs_count=6&hide_progress=false`}
-                        alt="CodeBucks"
+                        alt="AlecBytes"
                         loading="lazy"
                     />
                 </ItemLayout>
@@ -57,7 +57,7 @@ const AboutDetails = () => {
 
 
 
-                <ItemLayout className={'col-span-full'}>
+                <ItemLayout className={'col-span-full'}> 
                     <img className="w-full h-auto"
                         src="https://skillicons.dev/icons?i=js,html,css,anaconda,apollo,aws,bash,cpp,cmake,cypress,discord,docker,fastapi,git,github,gmail,graphql,idea,java,latex,linux,md,mongodb,nextjs,nodejs,npm,postgres,postman,powershell,processing,py,pytorch,qt,r,raspberrypi,react,regex,sass,supabase,sklearn,tailwind,tensorflow,ts,ubuntu,vercel,vim,visualstudio,vite,vscode,vue,windows"
                         alt="AlecBytes"
@@ -65,7 +65,7 @@ const AboutDetails = () => {
                     />
                 </ItemLayout>
 
-                <ItemLayout className={'col-span-6 !p-0'}>
+                <ItemLayout className={'col-span-6 !p-0'}> {/* should deploy my own github stat api */}
                     <img className="w-full h-auto"
                         src="http://github-readme-streak-stats.herokuapp.com?user=alecbytes&theme=dark&hide_border=true&background=FEFE5B00&ring=FEFE5B&currStreakLabel=FEFE5B"
                         alt="GitHub Streak"
