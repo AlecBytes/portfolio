@@ -3,6 +3,7 @@ import "./globals.css";
 import clsx from "clsx"
 import FireFliesBackground from "@/components/FireFliesBackground";
 import Sound from "@/components/Sound";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <FireFliesBackground />
         <Sound />
         <div id="my-modal" />
+      <Analytics />
       </body>
     </html>
   );
