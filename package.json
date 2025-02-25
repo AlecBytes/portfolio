@@ -13,6 +13,7 @@
     "@react-three/drei": "^9.99.5",
     "@react-three/fiber": "^8.15.16",
     "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.8",
     "lucide-react": "^0.344.0",

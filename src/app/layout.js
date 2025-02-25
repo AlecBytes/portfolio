@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         <Sound />
         <div id="my-modal" />
       <Analytics />
+      <SpeedInsights/>
       </body>
     </html>
   );
