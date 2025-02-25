@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef, useState } from "react"
+import React, { useCallback, useEffect, useRef, useState } from "react"
 import { motion } from 'framer-motion'
 import { Volume2, VolumeX } from "lucide-react"
 import { createPortal } from "react-dom"
@@ -28,7 +28,7 @@ const Sound = () => {
     const [isPlaying, setIsPlaying] = useState(false)
     const [showModal, setShowModal] = useState(false)
 
-    const handleFirstUserInteraction = () => {
+    const handleFirstUserInteraction = useCallback(() => {
         const musicConsent = localStorage.getItem("musicConsent")
         if(musicConsent === "true" && !isPlaying){
             audioRef.current.play()
@@ -36,14 +36,13 @@ const Sound = () => {
         }
 
         ["click", "keydown", "touchstart"].forEach((event) =>
-            document.removeEventListener(event, handleFirstUserInteraction )
+            document.removeEventListener(event, handleFirstUserInteraction)
         ) 
-    }
+    }, [isPlaying])
 
     useEffect(() => {
         const consent = localStorage.getItem("musicConsent")
         const consentTime = localStorage.getItem("consentTime")
-
 
         if(consent && consentTime && new Date(consentTime).getTime() + 3*24*60*60*1000 > new Date()) {
             setIsPlaying(consent === "true")
@@ -57,7 +56,7 @@ const Sound = () => {
             setShowModal(true)
         }
 
-    }, [])
+    }, [handleFirstUserInteraction])
 
     const toggle = () => {
         const newState = !isPlaying
@@ -88,8 +87,8 @@ const Sound = () => {
             transition={{delay: 1}}
 
             className='w-10 h-10 xs:w-14 xs:h-14 text-foreground rounded-full flex items-center justify-center cursor-pointer z-50 p-2.5 xs:p-4 custom-bg'
-            aria-label={"home"}
-            name={"home"}
+            aria-label={"Sound control button"}
+            name={"Sound control button"}
         >
         {
             isPlaying ?
