@@ -34,7 +34,7 @@ const AboutDetails = () => {
                     <img className="w-full h-auto"
                         src="https://skillicons.dev/icons?i=git,github,java,js,ts,py,cpp,r,processing,html,css,sass,tailwind,regex,md,vue,react,nextjs,vite,nodejs,npm,cypress,postman,apollo,graphql,fastapi,supabase,postgres,mongodb,docker,aws,vercel,linux,ubuntu,windows,bash,powershell,vim,visualstudio,vscode,idea,cmake,pytorch,tensorflow,sklearn,anaconda,gmail,discord,raspberrypi,qt,latex
 "
-                        alt="AlecBytes"
+                        alt="AlecBytes - Skills"
                         loading="lazy"
                     />
                 </ItemLayout>
@@ -44,16 +44,16 @@ const AboutDetails = () => {
                     >
                     <img
                         className="w-full h-auto"
-                        src={`https://github-readme-stats.vercel.app/api/top-langs?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&langs_count=6&hide_progress=false&size_weight=0.1&count_weight=0.9&hide=scss,vue,shell,qmake,dockerfile,ruby`}
-                        alt="AlecBytes"
+                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&langs_count=6&hide_progress=false&size_weight=0.6&count_weight=0.4&hide=makefile,shell,scss,vue,css,html,cmake`}
+                        alt="AlecBytes-Top Languages"
                         loading="lazy"
                     />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
                     <img className="w-full h-auto"
-                        src="https://github-readme-stats.vercel.app/api?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show=prs_merged"
-                        alt="AlecBytes"
+                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show=prs_merged&rank_icon=github`}
+                        alt="AlecBytes - Github Stats"
                         loading="lazy" 
                     />
                 </ItemLayout>
@@ -61,7 +61,7 @@ const AboutDetails = () => {
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}> {/* should deploy my own github stat api */}
                     <img className="w-full h-auto"
-                        src="http://github-readme-streak-stats.herokuapp.com?user=alecbytes&theme=dark&hide_border=true&background=FEFE5B00&ring=FEFE5B&currStreakLabel=FEFE5B"
+                        src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=alecbytes&theme=dark&hide_border=true&background=FEFE5B00&ring=FEFE5B&currStreakLabel=FEFE5B`}
                         alt="GitHub Streak"
                         loading="lazy" 
                     />
@@ -69,24 +69,24 @@ const AboutDetails = () => {
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
                     <img className="w-full h-auto"
-                        src="https://github-readme-stats.vercel.app/api/pin/?username=alecbytes&repo=PantryPal&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
-                        alt="AlecBytes"
+                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=PantryPal&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+                        alt="AlecBytes-PantryPal"
                         loading="lazy" 
                     />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-6 !p-0"}>
                     <img className="w-full h-auto"
-                        src="https://github-readme-stats.vercel.app/api/pin/?username=alecbytes&repo=dbProject&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
-                        alt="AlecBytes"
+                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=dbProject&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+                        alt="AlecBytes-BaseballStats"
                         loading="lazy" 
                     />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-6 !p-0"}>
                     <img className="w-full h-auto"
-                        src="https://github-readme-stats.vercel.app/api/pin/?username=alecbytes&repo=connexx-chainlink&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
-                        alt="AlecBytes"
+                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=connexx-chainlink&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+                        alt="AlecBytes-ChainLink"
                         loading="lazy" 
                     />
                 </ItemLayout>
