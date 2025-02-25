@@ -26,8 +26,17 @@ const AboutDetails = () => {
 
                 <ItemLayout className={'col-span-full xs:col-span-6 lg:col-span-4 text-accent'}>
                     <p className='font-semibold w-full text-left text-2xl sm:text-5xl'>
-                        7 <sub className="font-semibold text-base">years of experience in Data Migration.</sub>
+                        7 <sub className="font-semibold text-base">years in customer onboarding data conversion</sub>
                     </p>
+                </ItemLayout>
+
+                <ItemLayout className={'col-span-full'}> 
+                    <img className="w-full h-auto"
+                        src="https://skillicons.dev/icons?i=git,github,java,js,ts,py,cpp,r,processing,html,css,sass,tailwind,regex,md,vue,react,nextjs,vite,nodejs,npm,cypress,postman,apollo,graphql,fastapi,supabase,postgres,mongodb,docker,aws,vercel,linux,ubuntu,windows,bash,powershell,vim,visualstudio,vscode,idea,cmake,pytorch,tensorflow,sklearn,anaconda,gmail,discord,raspberrypi,qt,latex
+"
+                        alt="AlecBytes"
+                        loading="lazy"
+                    />
                 </ItemLayout>
 
                 <ItemLayout
@@ -35,7 +44,7 @@ const AboutDetails = () => {
                     >
                     <img
                         className="w-full h-auto"
-                        src={`https://github-readme-stats.vercel.app/api/top-langs?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&langs_count=6&hide_progress=false`}
+                        src={`https://github-readme-stats.vercel.app/api/top-langs?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&langs_count=6&hide_progress=false&size_weight=0.1&count_weight=0.9&hide=scss,vue,shell,qmake,dockerfile,ruby`}
                         alt="AlecBytes"
                         loading="lazy"
                     />
@@ -49,13 +58,6 @@ const AboutDetails = () => {
                     />
                 </ItemLayout>
 
-                <ItemLayout className={'col-span-full'}> 
-                    <img className="w-full h-auto"
-                        src="https://skillicons.dev/icons?i=js,html,css,anaconda,apollo,aws,bash,cpp,cmake,cypress,discord,docker,fastapi,git,github,gmail,graphql,idea,java,latex,linux,md,mongodb,nextjs,nodejs,npm,postgres,postman,powershell,processing,py,pytorch,qt,r,raspberrypi,react,regex,sass,supabase,sklearn,tailwind,tensorflow,ts,ubuntu,vercel,vim,visualstudio,vite,vscode,vue,windows"
-                        alt="AlecBytes"
-                        loading="lazy"
-                    />
-                </ItemLayout>
 
                 <ItemLayout className={'col-span-full md:col-span-6 !p-0'}> {/* should deploy my own github stat api */}
                     <img className="w-full h-auto"
