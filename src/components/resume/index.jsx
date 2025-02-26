@@ -35,7 +35,7 @@ const Resume = () => {
                         src={diplomaPic}
                         alt="Diploma"
                     />
-                    <a href="https://services.student.ufl.edu/cediploma/?p=ceDiplomaValidate">UF Certified Electronic Credential Validation</a>
+                    <a href="https://services.student.ufl.edu/cediploma/?p=ceDiplomaValidate"><span className="underline text-base text-xs sm:text-lg">UF Certified Electronic Credential Validation</span></a>
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
