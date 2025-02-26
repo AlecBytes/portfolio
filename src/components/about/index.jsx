@@ -12,8 +12,8 @@ const AboutDetails = () => {
                     </h2>
                     <p className="font-light text-xs sm:text-sm md:text-base">
                     Recently graduated from the University of Florida with a bachelors in Computer Science, 3.93 GPA. 
-                    I&apos;m seeking a software engineering related role. Currently leading data migrations for Implementation Services at Enumerate. 
-                    I have extensive experience in customer onboarding and related data migrations. 
+                    I&apos;m seeking a software engineering related role. Currently leading data conversions for Implementation Services at Enumerate. 
+                    I have extensive experience in SaaS customer onboarding and related data migrations. 
                     Reach out to me about anything cutting edge technology, I&apos;d love to chat.
                     </p>
                 </ItemLayout>
