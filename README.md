@@ -2,7 +2,7 @@
 
 View the production deployment: [AlecBytes.com](https://alecbytes.com)
 
-## Portfolio Website of Contents
+## Portfolio Website Contents
 
 ### Pages
 
@@ -27,8 +27,10 @@ View the production deployment: [AlecBytes.com](https://alecbytes.com)
 
 ### AI 3D Model
 
-["UF Grad Wizard"](https://www.meshy.ai/3d-models/Graduate-in-Blue-Stole-v2-01953f03-77dc-77eb-9eba-8d092d50f1e6)  
 Used [meshy.ai](https://www.meshy.ai) to generate a 3D model and texture based on a picture from my graduation ceremony.
+
+["UF Grad Wizard"](https://www.meshy.ai/3d-models/Graduate-in-Blue-Stole-v2-01953f03-77dc-77eb-9eba-8d092d50f1e6)  
+
 
 ![3D model generation](./public/3D-model-gen.png)
 ![3D texture generation](./public/3D-texture-gen.png)
