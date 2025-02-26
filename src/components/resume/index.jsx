@@ -11,10 +11,16 @@ const Resume = () => {
         <section className="py-20 w-full">
             <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full">
                 {/* Education Section */}
-                <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
-                    <h2 className="text-xl md:text-2xl text-left w-full capitalize">
+                <ItemLayout className={"col-span-full row-span-1 text-accent"}>
+                    <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
                         Education
-                    </h2>
+                    </p>
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
+                    {/* <h2 className="text-xl md:text-2xl text-left w-full capitalize">
+                        Education
+                    </h2> */}
                     <div className="font-light text-base">
                         <h3 className="font-semibold text-accent">University of Florida</h3>
                         <p>Bachelor of Science in <span className="font-semibold">Computer Science</span>, <em>Cum Laude</em></p>
@@ -24,9 +30,15 @@ const Resume = () => {
                     </div>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-2 text-accent"}>
+                <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-1"}>
                     <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
                         3.95<sub className="font-semibold text-base">GPA</sub>
+                    </p>
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-1"}>
+                    <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
+                        2024 Grad.
                     </p>
                 </ItemLayout>
 
@@ -37,6 +49,7 @@ const Resume = () => {
                     />
                     <a href="https://services.student.ufl.edu/cediploma/?p=ceDiplomaValidate"><span className="underline text-base text-xs sm:text-lg">UF Certified Electronic Credential Validation</span></a>
                 </ItemLayout>
+
 
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
                     <div>
