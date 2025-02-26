@@ -37,8 +37,8 @@ Used [meshy.ai](https://www.meshy.ai) to generate a 3D model and texture based o
 
 ### 3D Models
 
-- ["Tim Mckee - Boy Wizard"](https://skfb.ly/6YATu)
-- ["Stylized wizard hat"](https://skfb.ly/ozxOQ)
+- ["Magic Book"](https://sketchfab.com/3d-models/magic-book-560340d959d142959fea81b8f262b476)
+- ["Wizard Hat"](https://skfb.ly/ozxOQ)
 - ["Wizard Staff"](https://skfb.ly/6QYZw)
 
 ### AI Images  
