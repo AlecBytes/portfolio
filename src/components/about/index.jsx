@@ -34,21 +34,13 @@ const AboutDetails = () => {
                     </p>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full"}> 
-                    <img className="w-full h-auto"
-                        src="https://skillicons.dev/icons?i=git,github,java,js,ts,py,cpp,r,processing,html,css,sass,tailwind,regex,md,vue,react,nextjs,vite,nodejs,npm,cypress,postman,apollo,graphql,fastapi,supabase,postgres,mongodb,docker,aws,vercel,linux,ubuntu,windows,bash,powershell,vim,visualstudio,vscode,idea,cmake,pytorch,tensorflow,sklearn,anaconda,gmail,discord,raspberrypi,qt,latex
-"
-                        alt="AlecBytes - Skills"
-                        loading="lazy"
-                    />
-                </ItemLayout>
 
                 <ItemLayout
                     className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
                     >
                     <img
                         className="w-full h-auto"
-                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&langs_count=6&hide_progress=false&size_weight=0.6&count_weight=0.4&hide=makefile,shell,scss,vue,css,html,cmake`}
+                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&langs_count=6&hide_progress=false&size_weight=0.6&count_weight=0.4&hide=makefile,shell,scss,vue,css,html,cmake,PHP`}
                         alt="AlecBytes-Top Languages"
                         loading="lazy"
                     />
@@ -62,6 +54,13 @@ const AboutDetails = () => {
                     />
                 </ItemLayout>
 
+                <ItemLayout className={"col-span-full"}> 
+                    <img className="w-full h-auto"
+                        src="https://skillicons.dev/icons?i=git,github,java,js,ts,py,cpp,r,processing,html,css,sass,tailwind,regex,md,vue,react,nextjs,vite,nodejs,npm,cypress,postman,apollo,graphql,fastapi,supabase,postgres,mongodb,docker,aws,vercel,linux,ubuntu,windows,bash,powershell,vim,visualstudio,vscode,idea,cmake,pytorch,tensorflow,sklearn,anaconda,gmail,discord,raspberrypi,qt,latex"
+                        alt="AlecBytes - Skills"
+                        loading="lazy"
+                    />
+                </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}> {/* should deploy my own github stat api */}
                     <img className="w-full h-auto"
@@ -72,27 +71,48 @@ const AboutDetails = () => {
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-                    <img className="w-full h-auto"
-                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=PantryPal&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-                        alt="AlecBytes-PantryPal"
-                        loading="lazy" 
-                    />
+                    <a 
+                        href="https://github.com/AlecBytes/pantrypal" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="block w-full hover:scale-105 transition-transform"
+                    >
+                        <img className="w-full h-auto"
+                            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=PantryPal&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+                            alt="AlecBytes-PantryPal"
+                            loading="lazy"
+                        />
+                    </a>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-6 !p-0"}>
-                    <img className="w-full h-auto"
-                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=dbProject&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-                        alt="AlecBytes-BaseballStats"
-                        loading="lazy" 
-                    />
+                <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+                    <a 
+                        href="https://github.com/AlecBytes/dbProject" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="block w-full hover:scale-105 transition-transform"
+                    >
+                        <img className="w-full h-auto"
+                            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=dbProject&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+                            alt="AlecBytes-Baseball-Stats"
+                            loading="lazy"
+                        />
+                    </a>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-6 !p-0"}>
-                    <img className="w-full h-auto"
-                        src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=connexx-chainlink&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-                        alt="AlecBytes-ChainLink"
-                        loading="lazy" 
-                    />
+                <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+                    <a 
+                        href="https://github.com/AlecBytes/portfolio" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="block w-full hover:scale-105 transition-transform"
+                    >
+                        <img className="w-full h-auto"
+                            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=alecbytes&repo=portfolio&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+                            alt="AlecBytes-Portfolio"
+                            loading="lazy"
+                        />
+                    </a>
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
@@ -100,7 +120,13 @@ const AboutDetails = () => {
                         src={diplomaPic}
                         alt="Diploma"
                     />
-                    <a href="https://services.student.ufl.edu/cediploma/?p=ceDiplomaValidate"><span className="underline text-base text-xs sm:text-lg">UF Certified Electronic Credential Validation</span></a>
+                    <a 
+                        href="https://services.student.ufl.edu/cediploma/?p=ceDiplomaValidate"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        <span className="underline text-base text-xs sm:text-lg">UF Certified Electronic Credential Validation</span>
+                    </a>
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
