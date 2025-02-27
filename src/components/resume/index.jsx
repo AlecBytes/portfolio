@@ -66,7 +66,7 @@ const Resume = () => {
                     </p>
                 </ItemLayout>
                 
-                <ItemLayout className="col-span-full 2xl:col-span-8 flex-col items-start row-span-2">
+                <ItemLayout className="col-span-full  flex-col items-start row-span-2">
                     {/* Flex container to align text left and image right */}
                     <div className="flex flex-col lg:flex-row justify-between items-start w-full space-y-6 lg:space-y-0">
                         {/* Left Text Content */}
@@ -86,20 +86,19 @@ const Resume = () => {
                         </ul>
                         </div>
 
-                        {/* Right Image */}
-                        {/* <div className="lg:w-1/4 flex">
+                        <div>
                         <Image
                             src={dataWizard}
                             alt="Data Wizard"
                             // height={200}
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                            className="w-auto hidden md:block"
+                            // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            className="w-auto h-auto hidden xs:block sm:hidden 2xl:block"
                         />
-                        </div> */}
+                        </div>
                     </div>
                     </ItemLayout>
                 
-                <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-2 flex-col items-start row-span-1 hidden md:hidden lg:hidden xl:hidden 2xl:block"}>
+                {/* <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-2 flex-col items-start row-span-1 hidden md:hidden lg:hidden xl:hidden 2xl:block"}>
                     <Image
                         src={dataWizard}
                         alt="Data Wizard"
@@ -107,7 +106,7 @@ const Resume = () => {
                         // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className="w-auto h-auto"
                         />
-                </ItemLayout>
+                </ItemLayout> */}
 
                 <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start row-span-1"}>
                     <div className="space-y-6">
@@ -145,7 +144,7 @@ const Resume = () => {
                 </ItemLayout>
  
                 {/* Projects Section */}
-                <ItemLayout className={"col-span-full flex-col items-start"}>
+                <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start"}>
                     <div className="space-y-6">
                         {/* ChainLink */}
                         <div>
@@ -160,7 +159,7 @@ const Resume = () => {
                     </div>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full flex-col items-start"}>
+                <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start"}>
                     <div className="space-y-6">
                         {/* PantryPal */}
                         <div>
@@ -175,7 +174,7 @@ const Resume = () => {
                     </div>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full flex-col items-start"}>
+                <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start"}>
                     <div className="space-y-6">
                         {/* Baseball Data Trends */}
                         <div>
@@ -190,7 +189,7 @@ const Resume = () => {
                     </div>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full flex-col items-start"}>
+                <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start"}>
                     <div className="space-y-6">
                         {/* AI Prediction Project */}
                         <div>
@@ -206,7 +205,7 @@ const Resume = () => {
                     </div>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full flex-col items-start"}>
+                <ItemLayout className={"col-span-full xl:col-span-6 flex-col items-start"}>
                     <div className="space-y-6">
                         {/* Portfolio */}
                         <div>
@@ -222,6 +221,43 @@ const Resume = () => {
                             </ul>
                         </div>
                     </div>
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full row-span-1 text-accent"}>
+                    <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
+                        SKILLS:
+                    </p>
+                </ItemLayout>
+
+                <ItemLayout className="col-span-full flex-col items-start row-span-1">
+                    <div className="space-y-6">
+                        <div>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div>
+                            <span className="font-semibold">Languages/Frameworks:</span><br />
+                            Java (OOP), Python, JavaScript (React/Node), GraphQL, SQL (Oracle/PostgreSQL), C++, R, HTML/CSS, TypeScript
+                            </div>
+                            <div>
+                            <span className="font-semibold">Cloud & DevOps:</span><br />
+                            Linux, AWS (EC2), Oracle OCI, Supabase, MongoDB Atlas, Vercel, Docker
+                            </div>
+                            <div>
+                            <span className="font-semibold">Developer Tools:</span><br />
+                            Git, Jira, Visual Studio, VS Code, IntelliJ, Jupyter Notebook, Postman, Vite, Quasar
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </ItemLayout>
+
+
+                <ItemLayout className={"col-span-full"}> 
+                    <img className="w-full h-auto"
+                        src="https://skillicons.dev/icons?i=git,github,java,js,ts,py,cpp,r,processing,html,css,sass,tailwind,regex,md,vue,react,nextjs,vite,nodejs,npm,cypress,postman,apollo,graphql,fastapi,supabase,postgres,mongodb,docker,aws,vercel,linux,ubuntu,windows,bash,powershell,vim,visualstudio,vscode,idea,cmake,pytorch,tensorflow,sklearn,anaconda,gmail,discord,raspberrypi,qt,latex,
+"
+                        alt="AlecBytes - Skills"
+                        loading="lazy"
+                    />
                 </ItemLayout>
 
             </div>
