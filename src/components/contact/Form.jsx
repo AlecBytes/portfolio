@@ -4,6 +4,8 @@ import { useForm } from 'react-hook-form';
 import emailjs from "@emailjs/browser"
 import { Toaster, toast } from 'sonner'
 import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { Linkedin } from "lucide-react";
 
 const container = {
   hidden: {opacity: 0},
@@ -69,8 +71,6 @@ export default function Form() {
   console.log(errors);
   
   return (
-
-
     <>
       <Toaster richColors={true} />
       <motion.form 
@@ -125,6 +125,19 @@ export default function Form() {
           className='px-10 py-4 rounded-md shadow-lg bg-background border border-accent/30 border-solid hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 cursor-pointer capitalize' 
           type="submit" 
         />
+
+        <motion.div variants={item}>
+          <Link
+              href="https://www.linkedin.com/in/alexanderjackpatterson/"
+              target="_blank"
+              className="text-foreground rounded-full flex items-center justify-center custom-bg"
+              aria-label="LinkedIn"
+            >
+              <span className="relative w-10 h-10 xs:w-14 xs:h-14 p-2.5 xs:p-4 hover:text-accent">
+                <Linkedin className="w-full h-auto" strokeWidth={1.5} />
+              </span>
+          </Link>
+        </motion.div>
 
       </motion.form>
     </>
