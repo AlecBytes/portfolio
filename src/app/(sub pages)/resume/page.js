@@ -30,7 +30,7 @@ export default function Home() {
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
-          <h1 className="font-bold text-6xl xs:text-7x1 sm:text-8xl lg:text-9xl text-accent">Alec's Resume</h1>
+          <h1 className="font-bold text-6xl xs:text-7x1 sm:text-8xl lg:text-9xl text-accent">Alec&apos;s Resume</h1>
           <p className="font-light text-foreground text-ls mt-4">Education, Skills, Experience, and Projects</p>
           {/* <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn font-light text-foreground text-ls mt-4">1-page PDF Resume: Click here</a> */}
           <Button 

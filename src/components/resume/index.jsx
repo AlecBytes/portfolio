@@ -79,7 +79,7 @@ const Resume = () => {
                         <ul className="list-disc ml-4 mt-2 space-y-1">
                             <li>Developed & deployed a Python automation tool that cut manual data validation time by 50%.</li>
                             <li>Reduced file transfer size by up to 90% through a custom JavaScript filter, accelerating enterprise data migration.</li>
-                            <li>Collaborated with engineers to refine the "New Community Setup Wizard," leveraging data migration expertise.</li>
+                            <li>Collaborated with engineers to refine the &quot;New Community Setup Wizard&quot;, leveraging data migration expertise.</li>
                             <li>Accelerated data-migration workflows, reducing time-to-value from 90 days to 60 days.</li>
                             <li>Team lead of Data Conversions for SaaS customer onboarding projects.</li>
                             <li>Complete 3-15 data conversion projects each month.</li>
@@ -97,16 +97,6 @@ const Resume = () => {
                         </div>
                     </div>
                     </ItemLayout>
-                
-                {/* <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-2 flex-col items-start row-span-1 hidden md:hidden lg:hidden xl:hidden 2xl:block"}>
-                    <Image
-                        src={dataWizard}
-                        alt="Data Wizard"
-                        // height={200}
-                        // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        className="w-auto h-auto"
-                        />
-                </ItemLayout> */}
 
                 <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start row-span-1"}>
                     <div className="space-y-6">
@@ -166,7 +156,7 @@ const Resume = () => {
                             <h3 className="font-semibold text-lg">Food Donation Platform</h3>
                             <p className="">Vue.js, Node.js, PostgreSQL, Supabase Auth, Vercel | Aug 2023 - Dec 2023</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
-                                <li>Engineered a dynamic feed & notification system connecting restaurants' surplus food with local charities.</li>
+                                <li>Engineered a dynamic feed & notification system connecting restaurants&apos; surplus food with local charities.</li>
                                 <li>Led a 3-person team, focusing on secure architecture, efficient data flow, and real-time concurrency.</li>
                                 <li><a href="https://pantrypal-lac.vercel.app" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/PantryPal" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
@@ -212,7 +202,7 @@ const Resume = () => {
                             <h3 className="font-semibold text-lg">Personal Portfolio Website</h3>
                             <p className="">Next.js, Tailwind CSS, Three.js, Vercel | Feb 2025</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
-                                <li>Skill Icons: A section of my portfolio showcases the various programming languages and developer tools I've used. Each skill is displayed as a visual icon.</li>
+                                <li>Skill Icons: A section of my portfolio showcases the various programming languages and developer tools I&apos;ve used. Each skill is displayed as a visual icon.</li>
                                 <li>Gen AI 3D Model: I used meshy.ai to generate a 3D model from my graduation photo and tapped into additional 3D assets from Sketchfab. The result? A fun, immersive experience that merges code with a bit of magic.</li>
                                 <li>Engaging Animations & Effects: Thanks to framer-motion and Three.js integration, the site is packed with smooth transitions and interactive elements.</li>
                                 <li>Email Contact Form: Implemented react-hook-form for a seamless email form, allowing anyone to send me an email.</li>
