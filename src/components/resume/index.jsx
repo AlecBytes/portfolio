@@ -4,6 +4,8 @@ import Image from "next/image";
 import diplomaPic from "../../../public/diploma.png"
 import gradPic1 from "../../../public/grad-photo-1.jpg"
 import gradPic2 from "../../../public/grad-photo-2.jpg"
+import dataWizard from "../../../public/genAI-data-conversion-wiz2.webp"
+import dataConversion from "../../../public/gen-AI-data-conversion.webp"
 import { Bold } from "lucide-react";
 
 const Resume = () => {
@@ -13,14 +15,11 @@ const Resume = () => {
                 {/* Education Section */}
                 <ItemLayout className={"col-span-full row-span-1 text-accent"}>
                     <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
-                        Education
+                        EDUCATION:
                     </p>
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
-                    {/* <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-                        Education
-                    </h2> */}
                     <div className="font-light text-base">
                         <h3 className="font-semibold text-accent">University of Florida</h3>
                         <p>Bachelor of Science in <span className="font-semibold">Computer Science</span>, <em>Cum Laude</em></p>
@@ -32,13 +31,13 @@ const Resume = () => {
 
                 <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-1"}>
                     <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
-                        3.95<sub className="font-semibold text-base">GPA</sub>
+                        3.95 GPA
                     </p>
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-1"}>
                     <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
-                        2024 Grad.
+                        2024 Grad
                     </p>
                 </ItemLayout>
 
@@ -61,38 +60,74 @@ const Resume = () => {
                 </ItemLayout>
 
                 {/* Experience Section */}
-                <ItemLayout className={"col-span-full flex-col items-start"}>
-                    <h2 className="text-xl md:text-2xl text-left w-full capitalize mb-4">
-                        Experience
-                    </h2>
-                    <div className="space-y-6">
-                        {/* Current Role */}
-                        <div>
-                            <h3 className="font-semibold text-lg">Data Migration Specialist: Implementation Services</h3>
-                            <p className="text-accent">Enumerate (formerly TOPS Software) | January 2020 - Present</p>
-                            <p className="text-sm text-foreground/60">Clearwater, FL (Remote)</p>
-                            <ul className="list-disc ml-4 mt-2 space-y-1">
-                                <li>Developed & deployed a Python automation tool that cut manual data validation time by 50%.</li>
-                                <li>Reduced file transfer size by up to 90% through a custom JavaScript filter, accelerating enterprise data migration.</li>
-                                <li>Collaborated with engineers to refine the "New Community Setup Wizard," leveraging data migration expertise.</li>
-                                <li>Accelerated data-migration workflows, reducing time-to-value from 90 days to 60 days.</li>
-                            </ul>
+                <ItemLayout className={"col-span-full row-span-1 text-accent"}>
+                    <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
+                        EXPERIENCE:
+                    </p>
+                </ItemLayout>
+                
+                <ItemLayout className="col-span-full 2xl:col-span-8 flex-col items-start row-span-2">
+                    {/* Flex container to align text left and image right */}
+                    <div className="flex flex-col lg:flex-row justify-between items-start w-full space-y-6 lg:space-y-0">
+                        {/* Left Text Content */}
+                        <div className="lg:w-3/4">
+                        <h3 className="font-semibold text-lg">
+                            <span className="text-accent">Data Migration Specialist</span>: Implementation Services
+                        </h3>
+                        <p>Enumerate (formerly TOPS Software) | January 2020 - Present</p>
+                        <p className="text-sm text-foreground/60">Clearwater, FL (Remote)</p>
+                        <ul className="list-disc ml-4 mt-2 space-y-1">
+                            <li>Developed & deployed a Python automation tool that cut manual data validation time by 50%.</li>
+                            <li>Reduced file transfer size by up to 90% through a custom JavaScript filter, accelerating enterprise data migration.</li>
+                            <li>Collaborated with engineers to refine the "New Community Setup Wizard," leveraging data migration expertise.</li>
+                            <li>Accelerated data-migration workflows, reducing time-to-value from 90 days to 60 days.</li>
+                            <li>Team lead of Data Conversions for SaaS customer onboarding projects.</li>
+                            <li>Complete 3-15 data conversion projects each month.</li>
+                        </ul>
                         </div>
 
-                        {/* Previous Roles */}
+                        {/* Right Image */}
+                        {/* <div className="lg:w-1/4 flex">
+                        <Image
+                            src={dataWizard}
+                            alt="Data Wizard"
+                            // height={200}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            className="w-auto hidden md:block"
+                        />
+                        </div> */}
+                    </div>
+                    </ItemLayout>
+                
+                <ItemLayout className={"col-span-full lg:col-span-4 lg:row-span-2 flex-col items-start row-span-1 hidden md:hidden lg:hidden xl:hidden 2xl:block"}>
+                    <Image
+                        src={dataWizard}
+                        alt="Data Wizard"
+                        // height={200}
+                        // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        className="w-auto h-auto"
+                        />
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start row-span-1"}>
+                    <div className="space-y-6">
                         <div>
                             <h3 className="font-semibold text-lg">Project Manager: Customer Onboarding</h3>
-                            <p className="text-accent">TOPS Software | November 2017 - December 2019</p>
+                            <p className="">TOPS Software | November 2017 - December 2019</p>
                             <p className="text-sm text-foreground/60">Clearwater, FL (On-Site)</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Coordinated 3-10 customer onboarding projects/month, migrating clients to a new SaaS platform.</li>
                                 <li>Streamlined communication between product, engineering, and client stakeholders.</li>
                             </ul>
                         </div>
+                    </div>
+                </ItemLayout>
 
+                <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start"}>
+                    <div className="space-y-6">
                         <div>
                             <h3 className="font-semibold text-lg">Customer Support Specialist</h3>
-                            <p className="text-accent">TOPS Software | October 2013 - October 2017</p>
+                            <p className="">TOPS Software | October 2013 - October 2017</p>
                             <p className="text-sm text-foreground/60">Clearwater, FL (On-Site)</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Resolved 5-20 customer support tickets daily as a top-tier service provider.</li>
@@ -103,13 +138,16 @@ const Resume = () => {
                     </div>
                 </ItemLayout>
 
+                <ItemLayout className={"col-span-full row-span-1 text-accent"}>
+                    <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
+                        PROJECTS:
+                    </p>
+                </ItemLayout>
+ 
                 {/* Projects Section */}
                 <ItemLayout className={"col-span-full flex-col items-start"}>
-                    <h2 className="text-xl md:text-2xl text-left w-full capitalize mb-4">
-                        Select Projects
-                    </h2>
                     <div className="space-y-6">
-                        {/* Project items */}
+                        {/* ChainLink */}
                         <div>
                             <h3 className="font-semibold text-lg">Social App for Cyclists</h3>
                             <p className="text-accent">React, JavaScript, Node.js, MongoDB, AWS | Sept 2024 - Dec 2024</p>
@@ -119,7 +157,12 @@ const Resume = () => {
                                 <li><a href="https://chainlink.connexx-ai.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/LearnDialogue/connexx-chainlink" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
+                    </div>
+                </ItemLayout>
 
+                <ItemLayout className={"col-span-full flex-col items-start"}>
+                    <div className="space-y-6">
+                        {/* PantryPal */}
                         <div>
                             <h3 className="font-semibold text-lg">Food Donation Platform</h3>
                             <p className="text-accent">Vue.js, Node.js, PostgreSQL, Supabase Auth, Vercel | Aug 2023 - Dec 2023</p>
@@ -129,8 +172,12 @@ const Resume = () => {
                                 <li><a href="https://pantrypal-lac.vercel.app" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/PantryPal" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Repo</a></li>
                             </ul>
                         </div>
+                    </div>
+                </ItemLayout>
 
-                        {/* Data Trends Website */}
+                <ItemLayout className={"col-span-full flex-col items-start"}>
+                    <div className="space-y-6">
+                        {/* Baseball Data Trends */}
                         <div>
                             <h3 className="font-semibold text-lg">Data Trends & Visualizations Website</h3>
                             <p className="text-accent">SQL, Vue.js, Node.js, Oracle Cloud | Aug 2023 - Dec 2023</p>
@@ -140,7 +187,11 @@ const Resume = () => {
                                 <li><a href="https://baseballdatatrends.com" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/dbProject" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Repo</a></li>
                             </ul>
                         </div>
+                    </div>
+                </ItemLayout>
 
+                <ItemLayout className={"col-span-full flex-col items-start"}>
+                    <div className="space-y-6">
                         {/* AI Prediction Project */}
                         <div>
                             <h3 className="font-semibold text-lg">AI Prediction of Song Genre and Popularity</h3>
@@ -154,6 +205,25 @@ const Resume = () => {
                         </div>
                     </div>
                 </ItemLayout>
+
+                <ItemLayout className={"col-span-full flex-col items-start"}>
+                    <div className="space-y-6">
+                        {/* Portfolio */}
+                        <div>
+                            <h3 className="font-semibold text-lg">Personal Portfolio Website</h3>
+                            <p className="text-accent">Next.js, Tailwind CSS, Three.js, Vercel | Feb 2025</p>
+                            <ul className="list-disc ml-4 mt-2 space-y-1">
+                                <li>Skill Icons: A section of my portfolio showcases the various programming languages and developer tools I've used. Each skill is displayed as a visual icon.</li>
+                                <li>Gen AI 3D Model: I used meshy.ai to generate a 3D model from my graduation photo and tapped into additional 3D assets from Sketchfab. The result? A fun, immersive experience that merges code with a bit of magic.</li>
+                                <li>Engaging Animations & Effects: Thanks to framer-motion and Three.js integration, the site is packed with smooth transitions and interactive elements.</li>
+                                <li>Email Contact Form: Implemented react-hook-form for a seamless email form, allowing anyone to send me an email.</li>
+                                <li>GitHub Stats API: Integrated GitHub stats API with React components to highlight my contributions.</li>
+                                <li><a href="https://www.alecbytes.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">AlecBytes.com</a> | <a href="https://github.com/LearnDialogue/portfolio" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </ItemLayout>
+
             </div>
         </section>
     )
