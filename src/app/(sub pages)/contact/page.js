@@ -1,6 +1,7 @@
 import Image from "next/image";
 import bg from "../../../../public/background/contact-background.png"
 import Form from "@/components/contact/Form";
+import LinkedinBtn from "@/components/contact/LinkedInButton";
 
 
 export default function Contact() {
@@ -24,6 +25,8 @@ export default function Contact() {
           </p>
         </div>
         <Form />
+        
+        <LinkedinBtn />
       </article>
 
 
