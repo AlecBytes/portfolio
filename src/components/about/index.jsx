@@ -1,5 +1,9 @@
 import React from "react";
 import ItemLayout from "./itemLayout";
+import Image from "next/image";
+import diplomaPic from "../../../public/diploma.png"
+import gradPic2 from "../../../public/grad-photo-2.jpg"
+
 
 const AboutDetails = () => {
     return (
@@ -89,6 +93,23 @@ const AboutDetails = () => {
                         alt="AlecBytes-ChainLink"
                         loading="lazy" 
                     />
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
+                    <Image
+                        src={diplomaPic}
+                        alt="Diploma"
+                    />
+                    <a href="https://services.student.ufl.edu/cediploma/?p=ceDiplomaValidate"><span className="underline text-base text-xs sm:text-lg">UF Certified Electronic Credential Validation</span></a>
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
+                    <div>
+                        <Image
+                            src={gradPic2}
+                            alt="Grad Pic 1"
+                        />
+                    </div>
                 </ItemLayout>
 
 

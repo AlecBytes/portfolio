@@ -2,7 +2,6 @@ import React from "react";
 import ItemLayout from "./itemLayout";
 import Image from "next/image";
 import diplomaPic from "../../../public/diploma.png"
-import gradPic1 from "../../../public/grad-photo-1.jpg"
 import gradPic2 from "../../../public/grad-photo-2.jpg"
 import dataWizard from "../../../public/genAI-data-conversion-wiz2.webp"
 import dataConversion from "../../../public/gen-AI-data-conversion.webp"
@@ -20,12 +19,13 @@ const Resume = () => {
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
-                    <div className="font-light text-base">
-                        <h3 className="font-semibold text-accent">University of Florida</h3>
-                        <p>Bachelor of Science in <span className="font-semibold">Computer Science</span>, <em>Cum Laude</em></p>
-                        <p>College of Liberal Arts and Sciences</p>
-                        <p className="">December 2024 | Gainesville, FL</p>
-                        <p className="mt-2"><span className="font-semibold">Relevant Courses:</span> Software Engineering, Data Structures and Algorithms, Operating Systems, Computer Organization, Algorithm Abstraction and Design, Advanced Programming Fundamentals, Information and Database Management Systems, Enterprise Software Engineering Practices, Information Security, Data Science</p>
+                    <div className="font-light text-base 2xl:text-xl">
+                        <h3 className="font-semibold text-accent 2xl:text-xl">University of Florida</h3>
+                        <p className="2xl:text-xl">Bachelor of Science in <span className="font-semibold">Computer Science</span>, <em>Cum Laude</em></p>
+                        <p className="2xl:text-xl">College of Liberal Arts and Sciences</p>
+                        <p className="2xl:text-xl">December 2024 | Gainesville, FL</p>
+                        <p className="2xl:text-xl">3.95 GPA</p>
+                        <p className="mt-2 2xl:text-xl"><span className="font-semibold">Relevant Courses:</span> Software Engineering, Data Structures and Algorithms, Operating Systems, Computer Organization, Algorithm Abstraction and Design, Advanced Programming Fundamentals, Information and Database Management Systems, Enterprise Software Engineering Practices, Information Security, Data Science</p>
                     </div>
                 </ItemLayout>
 
@@ -41,23 +41,7 @@ const Resume = () => {
                     </p>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
-                    <Image
-                        src={diplomaPic}
-                        alt="Diploma"
-                    />
-                    <a href="https://services.student.ufl.edu/cediploma/?p=ceDiplomaValidate"><span className="underline text-base text-xs sm:text-lg">UF Certified Electronic Credential Validation</span></a>
-                </ItemLayout>
-
-
-                <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
-                    <div>
-                        <Image
-                            src={gradPic2}
-                            alt="Grad Pic 1"
-                        />
-                    </div>
-                </ItemLayout>
+                
 
                 {/* Experience Section */}
                 <ItemLayout className={"col-span-full row-span-1 text-accent"}>
@@ -66,45 +50,34 @@ const Resume = () => {
                     </p>
                 </ItemLayout>
                 
-                <ItemLayout className="col-span-full  flex-col items-start row-span-2">
-                    {/* Flex container to align text left and image right */}
-                    <div className="flex flex-col lg:flex-row justify-between items-start w-full space-y-6 lg:space-y-0 gap-4">
-                        {/* Left Text Content */}
-                        <div className="lg:w-3/4">
-                        <h3 className="font-semibold text-lg">
-                            <span className="text-accent">Data Migration Specialist</span>: Implementation Services
-                        </h3>
-                        <p>Enumerate (formerly TOPS Software) | January 2020 - Present</p>
-                        <p className="text-sm text-foreground/60">Clearwater, FL (Remote)</p>
-                        <ul className="list-disc ml-4 mt-2 space-y-1">
-                            <li>Developed & deployed a Python automation tool that cut manual data validation time by 50%.</li>
-                            <li>Reduced file transfer size by up to 90% through a custom JavaScript filter, accelerating enterprise data migration.</li>
-                            <li>Collaborated with engineers to refine the &quot;New Community Setup Wizard&quot;, leveraging data migration expertise.</li>
-                            <li>Accelerated data-migration workflows, reducing time-to-value from 90 days to 60 days.</li>
-                            <li>Team lead of Data Conversions for SaaS customer onboarding projects.</li>
-                            <li>Complete 3-15 data conversion projects each month.</li>
-                        </ul>
-                        </div>
-
+                <ItemLayout className="col-span-full xl:col-span-6 flex-col items-start row-span-2">
+                    <div className="space-y-6">
                         <div>
-                            <Image
-                                src={dataWizard}
-                                alt="Data Wizard"
-                                // height={200}
-                                // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                className="w-auto h-auto hidden xs:block sm:hidden 2xl:block"
-                            />
+                            <h3 className="font-semibold text-lg xl:text-xl 2xl:text-2xl">
+                                <span className="text-accent">Data Migration Specialist</span>: Implementation Services
+                            </h3>
+                            <p className="2xl:text-2xl">Enumerate (formerly TOPS Software) | January 2020 - <span className="text-accent">Present</span></p>
+                            <p className="text-sm xl:text-xl 2xl:text-xl text-foreground/60">Clearwater, FL (Remote)</p>
+                            <ul className="list-disc ml-4 mt-2 space-y-1 xl:text-xl 2xl:text-2xl">
+                                <li>Developed & deployed a Python automation tool that cut manual data validation time by 50%.</li>
+                                <li>Reduced file transfer size by up to 90% through a custom JavaScript filter, accelerating enterprise data migration.</li>
+                                <li>Collaborated with engineers to refine the &quot;New Community Setup Wizard&quot;, leveraging data migration expertise.</li>
+                                <li>Accelerated data-migration workflows, reducing time-to-value from 90 days to 60 days.</li>
+                                <li>Team lead of Data Conversions for SaaS customer onboarding projects.</li>
+                                <li>Complete 3-15 data conversion projects each month.</li>
+                            </ul>
+
                         </div>
                     </div>
-                    </ItemLayout>
+                </ItemLayout>
 
                 <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start row-span-1"}>
                     <div className="space-y-6">
                         <div>
-                            <h3 className="font-semibold text-lg">Project Manager: Customer Onboarding</h3>
+                            <h3 className="font-semibold text-lg 2xl:text-xl">Project Manager: Customer Onboarding</h3>
                             <p className="">TOPS Software | November 2017 - December 2019</p>
-                            <p className="text-sm text-foreground/60">Clearwater, FL (On-Site)</p>
-                            <ul className="list-disc ml-4 mt-2 space-y-1">
+                            <p className="text-sm text-foreground/60 2xl:text-xl">Clearwater, FL (On-Site)</p>
+                            <ul className="list-disc ml-4 mt-2 space-y-1 2xl:text-xl">
                                 <li>Coordinated 3-10 customer onboarding projects/month, migrating clients to a new SaaS platform.</li>
                                 <li>Streamlined communication between product, engineering, and client stakeholders.</li>
                             </ul>
@@ -112,13 +85,13 @@ const Resume = () => {
                     </div>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start"}>
+                <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start row-span-1"}>
                     <div className="space-y-6">
                         <div>
-                            <h3 className="font-semibold text-lg">Customer Support Specialist</h3>
+                            <h3 className="font-semibold text-lg 2xl:text-xl">Customer Support Specialist</h3>
                             <p className="">TOPS Software | October 2013 - October 2017</p>
-                            <p className="text-sm text-foreground/60">Clearwater, FL (On-Site)</p>
-                            <ul className="list-disc ml-4 mt-2 space-y-1">
+                            <p className="text-sm text-foreground/60 2xl:text-xl">Clearwater, FL (On-Site)</p>
+                            <ul className="list-disc ml-4 mt-2 space-y-1 2xl:text-xl">
                                 <li>Resolved 5-20 customer support tickets daily as a top-tier service provider.</li>
                                 <li>Conducted advanced troubleshooting and partnered with engineering to document and fix bugs.</li>
                                 <li>Collaborated with internal teams to translate user pain points into improvements.</li>
