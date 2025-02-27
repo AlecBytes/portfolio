@@ -46,6 +46,11 @@ export default function Home() {
 
       <Resume />
 
+      <Button
+        href="/contact"
+      >Contact Me</Button>
+
+
     </>
   );
 }

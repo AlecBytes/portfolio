@@ -68,7 +68,7 @@ const Resume = () => {
                 
                 <ItemLayout className="col-span-full  flex-col items-start row-span-2">
                     {/* Flex container to align text left and image right */}
-                    <div className="flex flex-col lg:flex-row justify-between items-start w-full space-y-6 lg:space-y-0">
+                    <div className="flex flex-col lg:flex-row justify-between items-start w-full space-y-6 lg:space-y-0 gap-4">
                         {/* Left Text Content */}
                         <div className="lg:w-3/4">
                         <h3 className="font-semibold text-lg">
@@ -87,13 +87,13 @@ const Resume = () => {
                         </div>
 
                         <div>
-                        <Image
-                            src={dataWizard}
-                            alt="Data Wizard"
-                            // height={200}
-                            // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                            className="w-auto h-auto hidden xs:block sm:hidden 2xl:block"
-                        />
+                            <Image
+                                src={dataWizard}
+                                alt="Data Wizard"
+                                // height={200}
+                                // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                className="w-auto h-auto hidden xs:block sm:hidden 2xl:block"
+                            />
                         </div>
                     </div>
                     </ItemLayout>
@@ -149,7 +149,7 @@ const Resume = () => {
                         {/* ChainLink */}
                         <div>
                             <h3 className="font-semibold text-lg">Social App for Cyclists</h3>
-                            <p className="text-accent">React, JavaScript, Node.js, MongoDB, AWS | Sept 2024 - Dec 2024</p>
+                            <p className="">React, JavaScript, Node.js, MongoDB, AWS | Sept 2024 - Dec 2024</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Led security enhancements and new features (friend system, ride sharing, password reset flow).</li>
                                 <li>Collaborated with a 3-person dev team for production readiness using AWS.</li>
@@ -164,11 +164,11 @@ const Resume = () => {
                         {/* PantryPal */}
                         <div>
                             <h3 className="font-semibold text-lg">Food Donation Platform</h3>
-                            <p className="text-accent">Vue.js, Node.js, PostgreSQL, Supabase Auth, Vercel | Aug 2023 - Dec 2023</p>
+                            <p className="">Vue.js, Node.js, PostgreSQL, Supabase Auth, Vercel | Aug 2023 - Dec 2023</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Engineered a dynamic feed & notification system connecting restaurants' surplus food with local charities.</li>
                                 <li>Led a 3-person team, focusing on secure architecture, efficient data flow, and real-time concurrency.</li>
-                                <li><a href="https://pantrypal-lac.vercel.app" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/PantryPal" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Repo</a></li>
+                                <li><a href="https://pantrypal-lac.vercel.app" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/PantryPal" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                     </div>
@@ -179,11 +179,11 @@ const Resume = () => {
                         {/* Baseball Data Trends */}
                         <div>
                             <h3 className="font-semibold text-lg">Data Trends & Visualizations Website</h3>
-                            <p className="text-accent">SQL, Vue.js, Node.js, Oracle Cloud | Aug 2023 - Dec 2023</p>
+                            <p className="">SQL, Vue.js, Node.js, Oracle Cloud | Aug 2023 - Dec 2023</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Authored optimized SQL queries to uncover key data trends in baseball statistics.</li>
                                 <li>Developed a secure Node.js API and front-end visuals in Vue.js, achieving seamless cloud-hosted data access.</li>
-                                <li><a href="https://baseballdatatrends.com" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/dbProject" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Repo</a></li>
+                                <li><a href="https://baseballdatatrends.com" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/dbProject" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                     </div>
@@ -194,12 +194,12 @@ const Resume = () => {
                         {/* AI Prediction Project */}
                         <div>
                             <h3 className="font-semibold text-lg">AI Prediction of Song Genre and Popularity</h3>
-                            <p className="text-accent">Python, Jupyter, PyTorch, scikit-learn | May 2023 - Jul 2023</p>
+                            <p className="">Python, Jupyter, PyTorch, scikit-learn | May 2023 - Jul 2023</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Analyzed a Spotify dataset, exploring and visualizing correlations between audio features and song popularity.</li>
                                 <li>Preprocessed data using Python and pandas with dimensionality reduction techniques for optimized model inputs.</li>
                                 <li>Developed and evaluated Random Forest and Neural Network models for genre and popularity prediction.</li>
-                                <li><a href="https://github.com/AlecBytes/DataScienceFinalProject" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Repo</a></li>
+                                <li><a href="https://github.com/AlecBytes/DataScienceFinalProject" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                     </div>
@@ -210,14 +210,14 @@ const Resume = () => {
                         {/* Portfolio */}
                         <div>
                             <h3 className="font-semibold text-lg">Personal Portfolio Website</h3>
-                            <p className="text-accent">Next.js, Tailwind CSS, Three.js, Vercel | Feb 2025</p>
+                            <p className="">Next.js, Tailwind CSS, Three.js, Vercel | Feb 2025</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Skill Icons: A section of my portfolio showcases the various programming languages and developer tools I've used. Each skill is displayed as a visual icon.</li>
                                 <li>Gen AI 3D Model: I used meshy.ai to generate a 3D model from my graduation photo and tapped into additional 3D assets from Sketchfab. The result? A fun, immersive experience that merges code with a bit of magic.</li>
                                 <li>Engaging Animations & Effects: Thanks to framer-motion and Three.js integration, the site is packed with smooth transitions and interactive elements.</li>
                                 <li>Email Contact Form: Implemented react-hook-form for a seamless email form, allowing anyone to send me an email.</li>
                                 <li>GitHub Stats API: Integrated GitHub stats API with React components to highlight my contributions.</li>
-                                <li><a href="https://www.alecbytes.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">AlecBytes.com</a> | <a href="https://github.com/LearnDialogue/portfolio" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                                <li><a href="https://www.alecbytes.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/LearnDialogue/portfolio" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                     </div>
