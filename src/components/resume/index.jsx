@@ -144,9 +144,10 @@ const Resume = () => {
                             <h3 className="font-semibold text-lg">Baseball Data Trend Visualizations</h3>
                             <p className="">SQL, Vue.js, Node.js, Oracle Cloud | Aug 2023 - Dec 2023</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
-                                <li>REST API implemented with Express Node.js and Oracle SQL.</li>
+                                <li>Five interactive visualizations of baseball statistical data, hosted on Oracle Cloud with an Autonomous SQL Database</li>
+                                <li>Frontend built with Vue.js & Quasar, backend powered by Node.js & Express</li>
+                                <li>REST API for querying and fetching data with SQL.</li>
                                 <li>Authored optimized SQL queries to uncover key data trends in baseball statistics.</li>
-                                <li>Graphs displayed with Chart.js and Vue.js.</li>
                                 <li><a href="https://baseballdatatrends.com" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/dbProject" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
