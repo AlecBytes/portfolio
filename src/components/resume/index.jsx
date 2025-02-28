@@ -111,12 +111,12 @@ const Resume = () => {
                     <div className="space-y-6">
                         {/* ChainLink */}
                         <div>
-                            <h3 className="font-semibold text-lg">Social App for Cyclists</h3>
+                            <h3 className="font-semibold text-lg">ChainLink: Social App for Cyclists</h3>
                             <p className="">React, JavaScript, Node.js, MongoDB, AWS | Sept 2024 - Dec 2024</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Led security enhancements and new features (friend system, ride sharing, password reset flow).</li>
                                 <li>Collaborated with a 3-person dev team for production readiness using AWS.</li>
-                                <li><a href="https://chainlink.connexx-ai.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/LearnDialogue/connexx-chainlink" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                                <li><a href="https://chainlink.connexx-ai.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/connexx-chainlink" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ const Resume = () => {
                     <div className="space-y-6">
                         {/* PantryPal */}
                         <div>
-                            <h3 className="font-semibold text-lg">Food Donation Platform</h3>
+                            <h3 className="font-semibold text-lg">PantryPal: Food Donation Platform</h3>
                             <p className="">Vue.js, Node.js, PostgreSQL, Supabase Auth, Vercel | Aug 2023 - Dec 2023</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
                                 <li>Engineered a dynamic feed & notification system connecting restaurants&apos; surplus food with local charities.</li>
@@ -141,11 +141,12 @@ const Resume = () => {
                     <div className="space-y-6">
                         {/* Baseball Data Trends */}
                         <div>
-                            <h3 className="font-semibold text-lg">Data Trends & Visualizations Website</h3>
+                            <h3 className="font-semibold text-lg">Baseball Data Trend Visualizations</h3>
                             <p className="">SQL, Vue.js, Node.js, Oracle Cloud | Aug 2023 - Dec 2023</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1">
+                                <li>REST API implemented with Express Node.js and Oracle SQL.</li>
                                 <li>Authored optimized SQL queries to uncover key data trends in baseball statistics.</li>
-                                <li>Developed a secure Node.js API and front-end visuals in Vue.js, achieving seamless cloud-hosted data access.</li>
+                                <li>Graphs displayed with Chart.js and Vue.js.</li>
                                 <li><a href="https://baseballdatatrends.com" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/dbProject" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
@@ -180,7 +181,7 @@ const Resume = () => {
                                 <li>Engaging Animations & Effects: Thanks to framer-motion and Three.js integration, the site is packed with smooth transitions and interactive elements.</li>
                                 <li>Email Contact Form: Implemented react-hook-form for a seamless email form, allowing anyone to send me an email.</li>
                                 <li>GitHub Stats API: Integrated GitHub stats API with React components to highlight my contributions.</li>
-                                <li><a href="https://www.alecbytes.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/LearnDialogue/portfolio" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                                <li><a href="https://www.alecbytes.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/portfolio" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                     </div>

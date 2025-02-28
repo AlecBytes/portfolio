@@ -50,7 +50,7 @@ export const projectsData = [
     name: "Portfolio Website",
     description: "This website.",
     date: "2025-02-24",
-    demoLink:"https://github.com/AlecBytes/portfolio"
+    demoLink:"https://www.alecbytes.com/"
   }
   // {
   //   id: 5,
