@@ -114,7 +114,7 @@ const AboutDetails = () => {
                     </a>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
+                {/* <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
                     <Image
                         src={diplomaPic}
                         alt="Graduation Photo at University of Florida"
@@ -153,7 +153,7 @@ const AboutDetails = () => {
                             }}
                         />
                     </div>
-                </ItemLayout>
+                </ItemLayout> */}
 
             </div>
         </section>
