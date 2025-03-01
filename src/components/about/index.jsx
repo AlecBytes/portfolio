@@ -139,12 +139,13 @@ const AboutDetails = () => {
                     </a>
                 </ItemLayout>
 
-                {/* <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
+                <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
                     <div>
                         <Image
                             src={gradPic2}
                             alt="Graduation Photo at University of Florida"
                             placeholder="blur"
+                            loading="lazy"
                             sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                             style={{
                                 width: '100%',
@@ -153,7 +154,7 @@ const AboutDetails = () => {
                             }}
                         />
                     </div>
-                </ItemLayout> */}
+                </ItemLayout>
 
             </div>
         </section>
