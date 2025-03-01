@@ -4,7 +4,6 @@ import Image from "next/image";
 import diplomaPic from "../../../public/diploma.png"
 import gradPic2 from "../../../public/grad-photo-2.jpg"
 
-
 const AboutDetails = () => {
     return (
         <section className="py-20 w-full">
@@ -118,14 +117,25 @@ const AboutDetails = () => {
                 <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
                     <Image
                         src={diplomaPic}
-                        alt="Diploma"
+                        alt="Graduation Photo at University of Florida"
+                        placeholder="blur"
+                        priority={true}
+                        sizes="(min-width: 1024px) 66vw, 100vw"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            objectFit: 'contain',
+                        }}
                     />
                     <a 
                         href="https://services.student.ufl.edu/cediploma/?p=ceDiplomaValidate"
                         target="_blank" 
                         rel="noopener noreferrer"
+                        className="mt-4 hover:text-accent transition-colors"
                     >
-                        <span className="underline text-base text-xs sm:text-lg">UF Certified Electronic Credential Validation</span>
+                        <span className="underline text-base text-xs sm:text-lg">
+                            UF Certified Electronic Credential Validation
+                        </span>
                     </a>
                 </ItemLayout>
 
@@ -133,11 +143,17 @@ const AboutDetails = () => {
                     <div>
                         <Image
                             src={gradPic2}
-                            alt="Grad Pic 1"
+                            alt="Graduation Photo at University of Florida"
+                            placeholder="blur"
+                            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                objectFit: 'cover',
+                            }}
                         />
                     </div>
                 </ItemLayout>
-
 
             </div>
         </section>

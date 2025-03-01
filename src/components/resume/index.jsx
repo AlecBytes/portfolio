@@ -1,13 +1,7 @@
 import React from "react";
 import ItemLayout from "./itemLayout";
-import Image from "next/image";
-import diplomaPic from "../../../public/diploma.png"
-import gradPic2 from "../../../public/grad-photo-2.jpg"
-import dataWizard from "../../../public/genAI-data-conversion-wiz2.webp"
-import dataConversion from "../../../public/gen-AI-data-conversion.webp"
-import { Bold } from "lucide-react";
 
-const Resume = () => {
+const ResumeDetails = () => {
     return (
         <section className="py-20 w-full">
             <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full">
@@ -230,4 +224,4 @@ const Resume = () => {
     )
 }
 
-export default Resume;
+export default ResumeDetails;
