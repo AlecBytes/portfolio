@@ -1,8 +1,8 @@
 import React from "react";
 import ItemLayout from "./itemLayout";
 import Image from "next/image";
-import diplomaPic from "../../../public/diploma.png"
-import gradPic2 from "../../../public/grad-photo-2.jpg"
+import diplomaPic from "../../../public/diploma.webp"
+import gradPic2 from "../../../public/grad-photo-handShake.webp"
 
 const AboutDetails = () => {
     return (
