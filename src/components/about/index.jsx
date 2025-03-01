@@ -69,7 +69,7 @@ const AboutDetails = () => {
                     />
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+                {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
                     <a 
                         href="https://github.com/AlecBytes/pantrypal" 
                         target="_blank" 
@@ -82,9 +82,9 @@ const AboutDetails = () => {
                             loading="lazy"
                         />
                     </a>
-                </ItemLayout>
+                </ItemLayout> */}
 
-                <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+                {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
                     <a 
                         href="https://github.com/AlecBytes/dbProject" 
                         target="_blank" 
@@ -97,7 +97,7 @@ const AboutDetails = () => {
                             loading="lazy"
                         />
                     </a>
-                </ItemLayout>
+                </ItemLayout> */}
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
                     <a 
@@ -114,7 +114,7 @@ const AboutDetails = () => {
                     </a>
                 </ItemLayout>
 
-                {/* <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
+                <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
                     <Image
                         src={diplomaPic}
                         alt="Graduation Photo at University of Florida"
@@ -139,7 +139,7 @@ const AboutDetails = () => {
                     </a>
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
+                {/* <ItemLayout className={"col-span-full xs:col-span-6 lg:col-span-4"}>
                     <div>
                         <Image
                             src={gradPic2}
