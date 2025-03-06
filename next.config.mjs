@@ -5,6 +5,10 @@ const nextConfig = {
   
     async rewrites() {
       return [
+        {
+          source: '/chatbot/api/:path*',
+          destination: `${process.env.NEXT_CHATBOT_DOMAIN}/api/:path*`,
+        },
         // 1) Rewrite /chatbot -> chatbot's root /
         {
           source: '/chatbot',
