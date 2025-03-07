@@ -51,14 +51,14 @@ export const projectsData = [
     description: "This website.",
     date: "2025-02-24",
     demoLink:"https://www.alecbytes.com/"
-  }
-  // {
-  //   id: 5,
-  //   name: "RecipeFinder",
-  //   description: "Discover new recipes",
-  //   date: "2022-07-12",
-  //   demoLink: "https://recipefinder.example.com",
-  // },
+  },
+  {
+    id: 5,
+    name: "Chatbot",
+    description: "Retrieval Augmented Generation (RAG) ",
+    date: "2025-03-05",
+    demoLink: "https://www.alecbytes.com/chatbot",
+  },
   // {
   //   id: 6,
   //   name: "JourneyLogger",
@@ -115,7 +115,7 @@ export const BtnList = [
   },
   {
     label: "ChatBot",
-    link: "https://www.alecbytes/chatbot",
+    link: "/chatbot",
     icon: "bot-message-square",
     newTab: true,
   },
