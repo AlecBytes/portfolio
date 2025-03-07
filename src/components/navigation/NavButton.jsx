@@ -1,4 +1,4 @@
-import { Home, NotebookText, Github, Linkedin, Palette, Phone, Twitter, User } from 'lucide-react';
+import { Home, NotebookText, Github, Linkedin, Palette, Phone, Twitter, User, BotMessageSquare } from 'lucide-react';
 import React from "react";
 import Link from "next/link";
 import clsx from "clsx"
@@ -22,7 +22,9 @@ const getIcon = (icon) => {
         case "twitter":
             return <Twitter className='w-full h-auto' strokeWidth={1.5} />    
         case "resume":
-            return <NotebookText className='w-full h-auto' strokeWidth={1.5} />           
+            return <NotebookText className='w-full h-auto' strokeWidth={1.5} />       
+        case "bot-message-square":
+            return <BotMessageSquare className='w-full h-auto' strokeWidth={1.5} />   
 
         default:
             return <Home className='w-full h-auto' strokeWidth={1.5} />

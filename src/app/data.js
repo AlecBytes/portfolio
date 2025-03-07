@@ -114,9 +114,9 @@ export const BtnList = [
     newTab: true,
   },
   {
-    label: "X",
-    link: "https://www.x.com/alecbytes",
-    icon: "twitter",
+    label: "ChatBot",
+    link: "https://www.alecbytes/chatbot",
+    icon: "bot-message-square",
     newTab: true,
   },
   {
@@ -125,6 +125,12 @@ export const BtnList = [
     icon: "resume",
     newTab: false,
   },
+    // {
+  //   label: "X",
+  //   link: "https://www.x.com/alecbytes",
+  //   icon: "twitter",
+  //   newTab: true,
+  // },
 ];
 
 
