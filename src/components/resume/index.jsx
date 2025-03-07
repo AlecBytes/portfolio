@@ -101,6 +101,41 @@ const ResumeDetails = () => {
                 </ItemLayout>
  
                 {/* Projects Section */}
+
+                <ItemLayout className={"col-span-full xl:col-span-6 flex-col items-start"}>
+                    <div className="space-y-6">
+                        {/* Portfolio */}
+                        <div>
+                            <h3 className="font-semibold text-lg">Personal Portfolio Website</h3>
+                            <p className="">Next.js, Tailwind CSS, Three.js, Vercel | Feb 2025</p>
+                            <ul className="list-disc ml-4 mt-2 space-y-1">
+                                <li>Skill Icons: A section of my portfolio showcases the various programming languages and developer tools I&apos;ve used. Each skill is displayed as a visual icon.</li>
+                                <li>Gen AI 3D Model: I used meshy.ai to generate a 3D model from my graduation photo and tapped into additional 3D assets from Sketchfab. The result? A fun, immersive experience that merges code with a bit of magic.</li>
+                                <li>Engaging Animations & Effects: Thanks to framer-motion and Three.js integration, the site is packed with smooth transitions and interactive elements.</li>
+                                <li>Email Contact Form: Implemented react-hook-form for a seamless email form, allowing anyone to send me an email.</li>
+                                <li>GitHub Stats API: Integrated GitHub stats API with React components to highlight my contributions.</li>
+                                <li><a href="https://www.alecbytes.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/portfolio" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full xl:col-span-6 flex-col items-start"}>
+                    <div className="space-y-6">
+                        {/* Chatbot */}
+                        <div>
+                            <h3 className="font-semibold text-lg">Chatbot - Retrieval Augmented Generation (RAG)</h3>
+                            <p className="">Next.js, Tailwind CSS, Vercel AI SDK, OpenAI API, PostgreSQL vector db | Mar 2025</p>
+                            <ul className="list-disc ml-4 mt-2 space-y-1">
+                                <li>Built a chatbot using retrieval-augmented generation (RAG) to answer questions based on external data.</li>
+                                <li>Started with a Vercel AI SDK template, refining the prompt and embedding structured resume data into a vector database.</li>
+                                <li>Tested and iterated on a working prototype, improving response accuracy by fine-tuning embeddings.</li>
+                                <li>Currently expanding the knowledge base and re-embedding updated information for better retrieval.</li>
+                                <li><a href="https://www.alecbytes.com/chatbot" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/rag-chatbot-alec" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </ItemLayout>
                 <ItemLayout className={"col-span-full lg:col-span-6 flex-col items-start"}>
                     <div className="space-y-6">
                         {/* ChainLink */}
@@ -159,24 +194,6 @@ const ResumeDetails = () => {
                                 <li>Preprocessed data using Python and pandas with dimensionality reduction techniques for optimized model inputs.</li>
                                 <li>Developed and evaluated Random Forest and Neural Network models for genre and popularity prediction.</li>
                                 <li><a href="https://github.com/AlecBytes/DataScienceFinalProject" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </ItemLayout>
-
-                <ItemLayout className={"col-span-full xl:col-span-6 flex-col items-start"}>
-                    <div className="space-y-6">
-                        {/* Portfolio */}
-                        <div>
-                            <h3 className="font-semibold text-lg">Personal Portfolio Website</h3>
-                            <p className="">Next.js, Tailwind CSS, Three.js, Vercel | Feb 2025</p>
-                            <ul className="list-disc ml-4 mt-2 space-y-1">
-                                <li>Skill Icons: A section of my portfolio showcases the various programming languages and developer tools I&apos;ve used. Each skill is displayed as a visual icon.</li>
-                                <li>Gen AI 3D Model: I used meshy.ai to generate a 3D model from my graduation photo and tapped into additional 3D assets from Sketchfab. The result? A fun, immersive experience that merges code with a bit of magic.</li>
-                                <li>Engaging Animations & Effects: Thanks to framer-motion and Three.js integration, the site is packed with smooth transitions and interactive elements.</li>
-                                <li>Email Contact Form: Implemented react-hook-form for a seamless email form, allowing anyone to send me an email.</li>
-                                <li>GitHub Stats API: Integrated GitHub stats API with React components to highlight my contributions.</li>
-                                <li><a href="https://www.alecbytes.com/" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">Live Demo</a> | <a href="https://github.com/AlecBytes/portfolio" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             </ul>
                         </div>
                     </div>
