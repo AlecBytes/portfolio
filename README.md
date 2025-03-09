@@ -18,7 +18,8 @@ If you find this project useful, consider **starring** ⭐ the repo! Your suppor
 - **Resume** → Education, work experience, and skills  
 - **About** → Skill icons, GitHub statistics  
 - **Projects** → Links to project demos  
-- **Contact** → Send me an email  
+- **Contact** → Send me an email
+- **Chatbot** → Ask questions about me ([GPT-4o RAG](https://github.com/AlecBytes/rag-chatbot-alec))
 
 ### **🔗 External Links**  
 
