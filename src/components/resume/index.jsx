@@ -35,8 +35,6 @@ const ResumeDetails = () => {
                     </p>
                 </ItemLayout>
 
-                
-
                 {/* Experience Section */}
                 <ItemLayout className={"col-span-full row-span-1 text-accent"}>
                     <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
@@ -44,6 +42,23 @@ const ResumeDetails = () => {
                     </p>
                 </ItemLayout>
                 
+                <ItemLayout className="col-span-full xl:col-span-6 flex-col items-start row-span-2">
+                    <div className="space-y-6">
+                        <div>
+                            <h3 className="font-semibold text-lg xl:text-xl 2xl:text-2xl">
+                                <span className="text-accent">Junior Software Developer</span>
+                            </h3>
+                            <p className="2xl:text-2xl">Johnson & Johnson, Inc. | April 2025 - <span className="text-accent">Present</span></p>
+                            <p className="text-sm xl:text-xl 2xl:text-xl text-foreground/60">St. Petersburg, FL (Remote)</p>
+                            <ul className="list-disc ml-4 mt-2 space-y-1 xl:text-xl 2xl:text-2xl">
+                                <li>Develop and maintain <span className="font-semibold">T-SQL stored procedures</span> and database functions supporting Motion's Flood and High Value Homes rating platform.</li>
+                                <li>Enhance system reliability with <span className="font-semibold">debug logging, new database tables, and versioned schema changes</span> to meet compliance and audit needs.</li>
+                                <li>Maintenance on <span className="font-semibold">Telerik reports</span> and PDF delivery via <span className="font-semibold">Azure Blob Storage</span>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </ItemLayout>
+
                 <ItemLayout className="col-span-full xl:col-span-6 flex-col items-start row-span-2">
                     <div className="space-y-6">
                         <div>
@@ -92,6 +107,43 @@ const ResumeDetails = () => {
                             </ul>
                         </div>
                     </div>
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full row-span-1 text-accent"}>
+                    <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
+                        SKILLS:
+                    </p>
+                </ItemLayout>
+
+                <ItemLayout className="col-span-full flex-col items-start row-span-1">
+                    <div className="space-y-6">
+                        <div>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div>
+                            <span className="font-semibold">Languages/Frameworks:</span><br />
+                            Java (OOP), Python, JavaScript (React/Node), GraphQL, SQL (Oracle/PostgreSQL), C++, R, HTML/CSS, TypeScript
+                            </div>
+                            <div>
+                            <span className="font-semibold">Cloud & DevOps:</span><br />
+                            Linux, AWS (EC2), Oracle OCI, Supabase, MongoDB Atlas, Vercel, Docker
+                            </div>
+                            <div>
+                            <span className="font-semibold">Developer Tools:</span><br />
+                            Git, Jira, Visual Studio, VS Code, IntelliJ, Jupyter Notebook, Postman, Vite, Quasar
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </ItemLayout>
+
+
+                <ItemLayout className={"col-span-full"}> 
+                    <img className="w-full h-auto"
+                        src="https://skillicons.dev/icons?i=git,github,java,js,ts,py,cpp,r,processing,html,css,sass,tailwind,regex,md,vue,react,nextjs,vite,nodejs,npm,cypress,postman,apollo,graphql,fastapi,supabase,postgres,mongodb,docker,aws,vercel,linux,ubuntu,windows,bash,powershell,vim,visualstudio,vscode,idea,cmake,pytorch,tensorflow,sklearn,anaconda,gmail,discord,raspberrypi,qt,latex,
+"
+                        alt="AlecBytes - Skills"
+                        loading="lazy"
+                    />
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full row-span-1 text-accent"}>
@@ -197,43 +249,6 @@ const ResumeDetails = () => {
                             </ul>
                         </div>
                     </div>
-                </ItemLayout>
-
-                <ItemLayout className={"col-span-full row-span-1 text-accent"}>
-                    <p className="font-semibold w-full text-center text-2xl sm:text-5xl">
-                        SKILLS:
-                    </p>
-                </ItemLayout>
-
-                <ItemLayout className="col-span-full flex-col items-start row-span-1">
-                    <div className="space-y-6">
-                        <div>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                            <div>
-                            <span className="font-semibold">Languages/Frameworks:</span><br />
-                            Java (OOP), Python, JavaScript (React/Node), GraphQL, SQL (Oracle/PostgreSQL), C++, R, HTML/CSS, TypeScript
-                            </div>
-                            <div>
-                            <span className="font-semibold">Cloud & DevOps:</span><br />
-                            Linux, AWS (EC2), Oracle OCI, Supabase, MongoDB Atlas, Vercel, Docker
-                            </div>
-                            <div>
-                            <span className="font-semibold">Developer Tools:</span><br />
-                            Git, Jira, Visual Studio, VS Code, IntelliJ, Jupyter Notebook, Postman, Vite, Quasar
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </ItemLayout>
-
-
-                <ItemLayout className={"col-span-full"}> 
-                    <img className="w-full h-auto"
-                        src="https://skillicons.dev/icons?i=git,github,java,js,ts,py,cpp,r,processing,html,css,sass,tailwind,regex,md,vue,react,nextjs,vite,nodejs,npm,cypress,postman,apollo,graphql,fastapi,supabase,postgres,mongodb,docker,aws,vercel,linux,ubuntu,windows,bash,powershell,vim,visualstudio,vscode,idea,cmake,pytorch,tensorflow,sklearn,anaconda,gmail,discord,raspberrypi,qt,latex,
-"
-                        alt="AlecBytes - Skills"
-                        loading="lazy"
-                    />
                 </ItemLayout>
 
             </div>

@@ -41,16 +41,16 @@ export default function Resume() {
               rel="noopener noreferrer"
               className="mt-4"
             >
-              1-page PDF resume
+              PDF resume
             </Button>
-            <Button 
+            {/* <Button 
               href="/resume_extended.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="mt-4"
             >
               2-page PDF resume
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
