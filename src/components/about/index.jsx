@@ -11,13 +11,14 @@ const AboutDetails = () => {
 
                 <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
                     <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-                        Architect of Enchantment
+                        About Me
                     </h2>
-                    <p className="font-light text-xs sm:text-sm md:text-base">
-                    Recently graduated from the University of Florida with a bachelors in Computer Science, 3.93 GPA. 
-                    I&apos;m seeking a software engineering related role. Currently leading data conversions for Implementation Services at Enumerate. 
-                    I have extensive experience in SaaS customer onboarding and related data migrations. 
-                    Reach out to me about anything cutting edge technology, I&apos;d love to chat.
+                    <p className="font-light text-xs sm:text-sm md:text-base space-y-2">
+                        I recently transitioned into software development after earning my B.S. in Computer Science (<em>cum laude</em>, 3.93 GPA) from the University of Florida. I now work as a Junior Developer at Johnson &amp; Johnson Insurance, where I focus on SQL development, reporting, and insurance domain logic.
+                        <br /><br />
+                        Before that, I spent over a decade leading data migrations and onboarding projects at Enumerate, gaining deep experience in data transformation, client communication, and implementation strategy.
+                        <br /><br />
+                        I&apos;m especially interested in backend engineering, system design, and AI-driven applications — and always open to learning new tools and techniques. If you&apos;re working on something innovative or looking to connect around tech, I&apos;d love to chat.
                     </p>
                 </ItemLayout>
 
