@@ -11,10 +11,10 @@ const AboutDetails = () => {
 
                 <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
                     <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-                        About Me
+                        Architect of Enchantment
                     </h2>
                     <p className="font-light text-xs sm:text-sm md:text-base space-y-2">
-                        I recently transitioned into software development after earning my B.S. in Computer Science (<em>cum laude</em>, 3.93 GPA) from the University of Florida. I now work as a Junior Developer at Johnson &amp; Johnson Insurance, where I focus on SQL development, reporting, and insurance domain logic.
+                        I recently transitioned into software development after earning my B.S. in Computer Science (<em>cum laude</em>, 3.95 GPA) from the University of Florida. I now work as a Junior Developer at Johnson &amp; Johnson Insurance, where I focus on SQL development, reporting, and insurance domain logic.
                         <br /><br />
                         Before that, I spent over a decade leading data migrations and onboarding projects at Enumerate, gaining deep experience in data transformation, client communication, and implementation strategy.
                         <br /><br />
@@ -35,7 +35,7 @@ const AboutDetails = () => {
                 </ItemLayout>
 
 
-                <ItemLayout
+                {/* <ItemLayout
                     className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
                     >
                     <img
@@ -44,15 +44,15 @@ const AboutDetails = () => {
                         alt="AlecBytes-Top Languages"
                         loading="lazy"
                     />
-                </ItemLayout>
+                </ItemLayout> */}
 
-                <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
+                {/* <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
                     <img className="w-full h-auto"
                         src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=alecbytes&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show=prs_merged&rank_icon=github`}
                         alt="AlecBytes - Github Stats"
                         loading="lazy" 
                     />
-                </ItemLayout>
+                </ItemLayout> */}
 
                 <ItemLayout className={"col-span-full"}> 
                     <img className="w-full h-auto"
@@ -62,13 +62,13 @@ const AboutDetails = () => {
                     />
                 </ItemLayout>
 
-                <ItemLayout className={"col-span-full md:col-span-6 !p-0"}> {/* should deploy my own github stat api */}
+                {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
                     <img className="w-full h-auto"
                         src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=alecbytes&theme=dark&hide_border=true&background=FEFE5B00&ring=FEFE5B&currStreakLabel=FEFE5B`}
                         alt="GitHub Streak"
                         loading="lazy" 
                     />
-                </ItemLayout>
+                </ItemLayout>  */}
 
                 {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
                     <a 
@@ -100,7 +100,7 @@ const AboutDetails = () => {
                     </a>
                 </ItemLayout> */}
 
-                <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+                {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
                     <a 
                         href="https://github.com/AlecBytes/portfolio" 
                         target="_blank" 
@@ -113,7 +113,7 @@ const AboutDetails = () => {
                             loading="lazy"
                         />
                     </a>
-                </ItemLayout>
+                </ItemLayout> */}
 
                 <ItemLayout className={"col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
                     <Image
