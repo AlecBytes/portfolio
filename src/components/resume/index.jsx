@@ -51,7 +51,7 @@ const ResumeDetails = () => {
                             <p className="2xl:text-2xl">Johnson & Johnson, Inc. | April 2025 - <span className="text-accent">Present</span></p>
                             <p className="text-sm xl:text-xl 2xl:text-xl text-foreground/60">St. Petersburg, FL (Remote)</p>
                             <ul className="list-disc ml-4 mt-2 space-y-1 xl:text-xl 2xl:text-2xl">
-                                <li>Develop and maintain <span className="font-semibold">T-SQL stored procedures</span> and database functions supporting Motion's Flood and High Value Homes rating platform.</li>
+                                <li>Develop and maintain <span className="font-semibold">T-SQL stored procedures</span> and database functions supporting Motion&apos;s Flood and High Value Homes rating platform.</li>
                                 <li>Enhance system reliability with <span className="font-semibold">debug logging, new database tables, and versioned schema changes</span> to meet compliance and audit needs.</li>
                                 <li>Maintenance on <span className="font-semibold">Telerik reports</span> and PDF delivery via <span className="font-semibold">Azure Blob Storage</span>.</li>
                             </ul>
